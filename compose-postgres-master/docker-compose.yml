@@ -16,6 +16,8 @@ services:
       - postgres
     restart: unless-stopped
   
+
+  # us this to connect: host.docker.internal
   pgadmin:
     container_name: pgadmin_container
     image: dpage/pgadmin4
